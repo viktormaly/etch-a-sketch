@@ -1,0 +1,22 @@
+body{
+  box-sizing: border-box;
+}
+
+#grid-container{
+  width: 800px;
+  height: 800px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.squares{
+ border: 1px solid black;
+}
+
+
+
+.child{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
